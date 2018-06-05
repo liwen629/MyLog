@@ -1,6 +1,7 @@
 package com.report.base;
 
 public interface IFile {
+	//这个接口，不包括htmlreport的相关方法
 
 	void write(String p_info);
 	void createLog(String p_info);
